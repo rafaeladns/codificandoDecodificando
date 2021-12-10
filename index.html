@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Codificando e Decodificando</title>
+</head>
+
+<body>
+  <header>
+    <h1>Codificando e Decodificando com Cifra de César e Base 64</h1>
+  </header>
+
+  <form>
+      <div class ="principal">
+          <div class="div-mensagem">
+            <label for="mensagem" class="label-div-mensagem">Insira um texto para codificar:</label>
+            <input type="text" id="texto" placeholder="Insira o texto aqui" />
+          </div>
+      
+          <div class="escolha-criptografia">
+          <label for="metodo">Escolha um método:</label>
+            <select class="opcoes-criptografia" id="opcoes-criptografia">
+              <option id="base64" value="base.64">Base64</option>
+              <option id= "cifra.cesar" value="cifraCesar">Cifra de César</option>
+            </select>
+          </div>
+      
+          <div class= "div-secreta" id="addContainer">
+            <label for="number" class="incremento">Digite um incremento de 1 a 25:</label>
+            <input id="incremento" type= "number" class="passo" min= 1 max=26  placeholder="Digite aqui o incremento" />
+          </div>
+      
+          <div class="radio-button">
+            <div class="div-par">
+              <input type="radio" name="radioInput" class ="radio-input" id="codificar" value="codificar">
+              <label for="codificar">Codificar</label>
+            </div>
+
+            <div class="div-par">
+              <input type="radio" name ="radioInput" class ="radio-input" id="decodificar" value="decodificar">
+            <label for="decodificar">Decodificar</label>
+            </div>
+
+          </div>
+      
+          <div class="div-botao">
+              <button type="submit" id="botao">
+              Codificar Texto
+            </button>
+        </div>
+
+          <div class="div-result">
+            <label for="mensagem">Resultado:</label>
+            <input type="text" id=textoResult>
+          </div>
+      </div>
+        
+      
+    
+    </form>
+    <footer><p>Desenvolvido por Rafaela Dias para fins didáticos- Resilia 2021</p>
+    </footer>
+
+
+  <script src="index.js"></script>
+
+</body>
+</script>
+</html>

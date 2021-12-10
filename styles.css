@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Inter:wght@400;700&display=swap');
+
+* {
+    font-family:'Balsamiq Sans', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+header {
+    background-color: rgba(23, 22, 22, 0.8);
+    border: 1px #0e6305 solid;
+    font-size: 0.6rem;
+    padding: 30px 20px;
+    margin-top: 20px;
+    font-weight:bold;
+    border-radius: 15px;
+  }
+
+  
+  
+  body {
+    background-image: url("https://i.gifer.com/origin/37/376a66dacbd417010b5eda0d46ada276.gif");
+    background-position: center;
+    color: #FFFFFF;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-size:1.0rem;
+    }
+  
+  form {
+    width: 45%;
+    background-color: rgba(23, 22, 22, 0.8);
+    color: white;
+    border: 1px #0e6305 solid;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 10px;
+    padding: 50px 100px;
+  }
+
+
+  
+  .escolha-criptografia{
+    display:flex;
+    flex-direction:column;
+    padding: 10px;
+  }
+
+
+  
+ 
+  input {
+    font-size: 0.6rem;
+  }
+
+ 
+  .div-secreta{
+    display: none;
+  }
+
+  #incremento{
+    width:20%;
+  }
+
+  input {
+    padding:5px;
+    width: 100%;
+    margin:10px;
+  }
+
+  
+  select {
+    border-radius: 3px;
+    font-size: 0.8rem;
+    margin-top: 15px;
+  }
+  
+  option{
+    text-align: center;
+  }
+
+  .div-par{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .incremento {
+    border-radius: 3px;
+    margin-top: 15px;
+    width: 20%;
+    padding: 4px 15px;
+  }
+  
+  #codificar,
+  #decodificar {
+    margin-top: 15px;
+  }
+
+ 
+
+
+  button {
+    margin-top: 15px;
+    border-radius: 3px;
+    padding: 5px 15px;
+    background: black;
+    color: white;
+    border: 1px #0e6305 solid;
+    margin-bottom:15px;
+  }
+
+  button:hover{
+    cursor:pointer;
+    color: #0e6305;
+  }
+
+  .div-botao{
+    display:flex;
+    flex-direction:column;
+    width:45%;
+    margin: 0 auto;
+  }
+
+  .div-result{
+    display:flex;
+    flex-direction:column;
+  }
+
+  footer{
+    margin-top:10px;
+  }
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  
+
+  
+  @media only screen and (max-width: 600px) {
+    header {
+      color: lightblue;
+    }
+  
+    body {
+      background-color: lightblue;
+    }
+  }
