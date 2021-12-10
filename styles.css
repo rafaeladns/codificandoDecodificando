@@ -156,7 +156,6 @@ header {
     body{
       font-size: 1.0rem;
       margin: 10px;
-      color:white;
     }
 
     form{
@@ -182,7 +181,9 @@ header {
     }
     button{
       font-size:1.0rem;
+    }
 
-
+    input{
+      background:white;
     }
   }
